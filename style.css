@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: Arial;
+}
+button{
+    cursor: pointer;
+}
+/* Language selection */
+.countryselect{
+    /* border: 1px solid red; */
+    height: 70px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.location{
+    font-size: 0.9rem;
+    color: gray;
+}
+.usanp, .en{
+    width: 200px;
+    border-radius: 8px;
+    height: 25px;
+    font-size:.8rem;
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.usanp:hover, .usanp:active{
+    border-color: gray;
+    border-style: dotted;
+}
+
+.btn1 {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 15px;
+    background-color: black;
+    border: none;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+/* Navigation */
+nav{
+    padding-top: 20px;
+    border-top: .5px solid gray;
+}
+nav, .heading, .heading2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    height: 30px;
+    width: 8%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("images/samsung-logo-png-1300.png");
+}
+.li{
+    font-weight: 540;
+    font-size: 1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.li:hover{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.bx-search-alt-2, .bx-cart, .bx-user{
+    /* border: 1px solid black; */
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 1.7rem;
+    color: black;
+}
+/* Shop latest */
+.list, .shop, .shope, .audio{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.foryou, .you{
+    margin-left: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+    border-top: none;
+    border-left:  none;
+    border-right: none;
+    border-bottom: 2px solid black;
+}
+.foryou{
+    background-color: white;
+}
+ .homeapp, .home{
+    margin-left: 25px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.homeapp{
+    background-color: white;
+}
+.foryou:active, .homeapp:active{
+    
+    color: black;
+    border-bottom: 2px solid gray;
+
+}
+ .foryou:hover, .homeapp:hover, .home:hover, .you:hover{
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+
+/* shoplist */
+.shoplist{
+    margin-top: 20px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    height: 380px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid rgb(243, 243, 246);
+    /* background-color: rgb(243, 243, 246); */
+    border-radius: 20px;
+}
+/* list */
+.image1{
+    height: 250px;
+    width: 100%;
+    
+    background-size: cover;
+    background-image: url("images/box4_image.jpg");
+}
+.name{
+    border-top: 3px solid rgb(243, 243, 246);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.save{
+    font-size: 1rem;
+    font-weight: 550;
+    color: rgb(0, 149, 255);
+}
+.upto{
+    font-size: .8rem;
+}
+/* artist */
+.comp{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.case{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.box1{
+    background-color: rgb(243, 243, 246);
+    height: 300px;
+    width: 23%;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+}
+.img{
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("images/Artistic-case.jfif");
+}
+.case{
+    padding-top: 14px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* mobile and computing */
+.container, .container2, .container3, .container4{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100vh;
+    padding: 10px;
+    background-size: cover;    
+}
+
+.container{
+    background-image: url("images/Galaxy-24.jpeg");
+}
+.container2{
+    background-image: url("images/OLED.webp");
+}
+.container3{
+    background-image: url("images/Refrigerators.jfif");
+}
+.container4{
+    background-image: url("images/sustainability.jfif");
+}
+.display{
+    margin-top: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ultra{
+    font-size: 3rem;
+}
+.buttons{
+    /* border: 1px solid red; */
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.get{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.audio{
+    color: white;
+}
+
+/* oled section */
+.oledb{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 20px;
+    /* line-height: 16px; */
+    color: white;
+}
+.gets{
+    color: white;
+}
+.white{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+.white:hover{
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+.big{
+    font-size: 2rem;
+}
+.nots,.ho{
+    color: white;
+    background-color: transparent;
+    
+}
+.nots{
+    border-bottom: 2px solid white;
+}
+.not:hover{
+    border-bottom: 2px solid gray;
+}
+.ho:hover{
+    color: rgb(202, 200, 200);
+    
+}
+
+/* footer */
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 1px solid gray;
+    border-bottom: .5px solid gray;
+}
+strong{
+    margin-right: 20px;
+}
+.morelearn{
+    margin-left: 20px;
+    color: black;
+}
+.morelearn:hover{
+    color: blue;
+}
+.footer2{
+    /* border: 1px solid black;margin-left: 20px; */
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    height: 44.2vh;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.foot1, .foot4{
+    width: 25%;
+    margin-right: 20px;
+    
+}
+.foot1{
+    border-right: 1px solid gray;
+}
+.footer2{
+    border-bottom: 1px solid gray;
+}
+.footer3, .footer4{
+    height: 40px;
+    margin-left: 20px;
+    border-bottom: 1px solid gray;
+}
+ul a{
+    display: block;  
+    color:black;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 10px;
+    /* color: #dddddd; */
+}
+.footer4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
