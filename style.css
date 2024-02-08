@@ -34,12 +34,13 @@ button{
 }
 
 .btn1 {
+    /* margin-bottom: 10px; */
     color: white;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
     background-color: black;
     border: none;
 }
@@ -51,6 +52,7 @@ button{
 /* Navigation */
 nav{
     padding-top: 20px;
+    padding-bottom: 20px;
     border-top: .5px solid gray;
 }
 nav, .heading, .heading2{
@@ -60,6 +62,7 @@ nav, .heading, .heading2{
     justify-content: space-evenly;
 }
 .logo{
+    cursor: pointer;
     height: 30px;
     width: 8%;
     background-size: contain;
@@ -67,6 +70,7 @@ nav, .heading, .heading2{
     background-image: url("images/samsung-logo-png-1300.png");
 }
 .li{
+    cursor: pointer;
     font-weight: 540;
     font-size: 1rem;
     padding-left: 15px;
@@ -87,11 +91,61 @@ nav, .heading, .heading2{
     font-size: 1.7rem;
     color: black;
 }
+/* hero-section */
+.hero{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 40px;
+    height: 80vh;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    /* justify-content: start; */
+    background-size: cover;
+    background-image: url("images/hero.jfif");
+}
+.herosection{
+    margin-top: 100px;
+    margin-left: 50px;
+    color: white;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.gamed{
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.eleites{
+    font-size: 3.4rem;
+    padding-bottom: 20px;
+}
+.small{
+    padding-bottom: 40px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.now{
+    /* margin-left: 20px; */
+    color: black;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+}
+.now:hover{
+    background-color: rgb(188, 188, 223);
+}
 /* Shop latest */
 .list, .shop, .shope, .audio{
     margin-top: 25px;
     display: flex;
     justify-content: center;
+    font-size: 2rem;
 }
 .foryou, .you{
     margin-left: 25px;
@@ -185,6 +239,7 @@ nav, .heading, .heading2{
     margin-bottom: 40px;
 }
 .box1{
+    cursor: pointer;
     background-color: rgb(243, 243, 246);
     height: 300px;
     width: 23%;
@@ -207,7 +262,7 @@ nav, .heading, .heading2{
 .container, .container2, .container3, .container4{
     margin-left: 20px;
     margin-right: 20px;
-    height: 100vh;
+    height: 105vh;
     padding: 10px;
     background-size: cover;    
 }
@@ -271,7 +326,7 @@ nav, .heading, .heading2{
     background-color: black;
 }
 .big{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .nots,.ho{
     color: white;
@@ -350,12 +405,36 @@ ul a{
     /* color: #dddddd; */
 }
 .footer4{
+    height: 50px;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.po{
+    cursor: pointer;
+}
 .info{
+    width: 40%;
+    
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.loop{
+    /* border: 1px solid red; */
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.loopicon{
+    font-size: .8rem;
+}
+.bxl-facebook-circle, .bxl-twitter, .bxl-instagram, .bxl-youtube, .bxs-envelope{
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.bxs-envelope{
+    margin-right: 20px;
 }
