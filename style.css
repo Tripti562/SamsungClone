@@ -450,3 +450,157 @@ ul a {
 .bxs-envelope {
   margin-right: 20px;
 }
+
+@media screen and (max-width: 600px){
+  .countryselect {
+    /* border: 1px solid red; */
+    height: 35px;
+    margin-right: 10px;
+  }
+  .location {
+    font-size: 0.45rem;
+    
+  }
+  .usanp,
+  .en {
+    width: 100px;
+    border-radius: 4px;
+    height: 13px;
+    font-size: 0.4rem;
+    
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .btn1 {
+    color: white;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+  }
+  
+  /* Navigation */
+  nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+  .logo {
+    height: 15px;
+    width: 8%;
+  }
+  .li {
+    cursor: pointer;
+    font-weight: 540;
+    font-size: .5rem;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .li:hover {
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+  }
+  
+  .bx-search-alt-2,
+  .bx-cart,
+  .bx-user {
+    margin-left: 4px;
+    font-size: .7rem;
+  }
+
+  /* upto */
+  .hero {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    height: 40vh;
+    width: 97%;
+    
+  }
+  .herosection {
+    margin-top: 50px;
+    margin-left: 25px;
+    color: white;
+    width: 60%;
+    
+  }
+  .gamed {
+    font-size: .8rem;
+    margin-bottom: 7px;
+    font-weight: bold;
+  }
+  .eleites {
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+  }
+  .small {
+    padding-bottom: 20px;
+    font-size: .6rem;
+    font-weight: 400;
+  }
+  .now {
+    /* margin-left: 20px; */
+    
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  /* Shop latest */
+.list,
+.shop,
+.shope,
+.audio {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+.foryou,
+.you {
+  margin-left: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid black;
+}
+.foryou {
+  background-color: white;
+}
+.homeapp,
+.home {
+  margin-left: 25px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.homeapp {
+  background-color: white;
+}
+.foryou:active,
+.homeapp:active {
+  color: black;
+  border-bottom: 2px solid gray;
+}
+.foryou:hover,
+.homeapp:hover,
+.home:hover,
+.you:hover {
+  color: gray;
+  border-bottom: 2px solid gray;
+}
+/* upto */
+  
+}
