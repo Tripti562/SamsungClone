@@ -252,6 +252,7 @@ nav,
 }
 .box1 {
   cursor: pointer;
+  
   background-color: rgb(243, 243, 246);
   height: 300px;
   width: 23%;
@@ -452,6 +453,10 @@ ul a {
 }
 
 @media screen and (max-width: 600px){
+
+  h2{
+    font-size: 1.3rem;
+  }
   .countryselect {
     /* border: 1px solid red; */
     height: 35px;
@@ -472,7 +477,7 @@ ul a {
     margin-right: 5px;
   }
   .btn1 {
-    color: white;
+    
     padding-left: 7.5px;
     padding-right: 7.5px;
     padding-top: 5px;
@@ -516,17 +521,15 @@ ul a {
   .hero {
     margin-left: 10px;
     margin-right: 10px;
-    padding-bottom: 20px;
-    height: 40vh;
+    padding-bottom: 10px;
+    height: 24vh;
     width: 97%;
     
   }
   .herosection {
     margin-top: 50px;
     margin-left: 25px;
-    color: white;
-    width: 60%;
-    
+    width: 55%;
   }
   .gamed {
     font-size: .8rem;
@@ -534,23 +537,20 @@ ul a {
     font-weight: bold;
   }
   .eleites {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     padding-bottom: 10px;
   }
   .small {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     font-size: .6rem;
     font-weight: 400;
   }
   .now {
     /* margin-left: 20px; */
     
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 10px;
-    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 8px;
+    font-weight: 500;
   }
   /* Shop latest */
 .list,
@@ -558,48 +558,67 @@ ul a {
 .shope,
 .audio {
   margin-top: 25px;
-  display: flex;
-  justify-content: center;
   font-size: 2rem;
 }
 .foryou,
 .you {
-  margin-left: 25px;
-  cursor: pointer;
-  font-size: 1rem;
+  margin-left: 15px;
+  font-size: .6rem;
   font-weight: 600;
-  background-color: transparent;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 2px solid black;
-}
-.foryou {
-  background-color: white;
+  border-bottom: 1px solid black;
 }
 .homeapp,
 .home {
-  margin-left: 25px;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  font-size: 1rem;
+  margin-left: 15px;
+  font-size: .6rem;
   font-weight: 600;
-}
-.homeapp {
-  background-color: white;
 }
 .foryou:active,
 .homeapp:active {
-  color: black;
-  border-bottom: 2px solid gray;
+  border-bottom: 1px solid gray;
 }
 .foryou:hover,
 .homeapp:hover,
 .home:hover,
 .you:hover {
-  color: gray;
-  border-bottom: 2px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+/* shoplist */
+.shoplist {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.box {
+  height: 125px;
+  margin-bottom: 1px;
+  /* margin-bottom: 10px; */
+  width: 15%;
+  border: 1px solid rgb(243, 243, 246);
+  border-radius: 10px;
+  
+}
+/* list */
+.image1 {
+  height: 50px;
+  width: 100%;
+}
+.name {
+  border-top: 1.5px solid rgb(243, 243, 246);
+  font-weight: 600;
+  line-height: .6rem;
+  font-size: .5rem;
+}
+.save {
+  font-size: .5rem;
+  font-weight: 550;
+}
+.upto {
+  font-weight: 500;
+  font-size: 0.5rem;
 }
 /* upto */
   
